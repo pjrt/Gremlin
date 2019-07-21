@@ -54,7 +54,7 @@
                     <container type="basic">
                         <action-set>
                             <map-to-keyboard>
-                                <key extended="False" scan-code="71"/>
+                                <key extended="True" scan-code="54"/>
                                 <activation-condition rule="all"/>
                             </map-to-keyboard>
                         </action-set>
@@ -71,6 +71,7 @@
                                 <mode name="Default"/>
                                 <mode name="Scout"/>
                             </cycle-modes>
+                            <text-to-speech text="Mode: ${current_mode}"/>
                         </action-set>
                         <virtual-button direction="below" lower-limit="0.05" upper-limit="1.0"/>
                     </container>
